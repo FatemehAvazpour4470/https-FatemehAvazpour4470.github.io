@@ -1,0 +1,147 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-top-menu {
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.container-top-menu .part-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-top-menu .part-left i.shop-cart{
+    padding: 15px;
+    margin-top: 6px;
+}
+.container-top-menu .part-left p.text-menu{
+    padding-left: 8px;
+    border: 1px solid rgb(177, 174, 174);
+    padding: 10px;
+    margin-left: 14px;
+    border-radius: 10px;
+}
+.border{
+    height: 30px;
+    background-color: rgb(194, 194, 194);
+    width: 1px;
+    position: absolute;
+    top:15px;
+    left:45px;
+}        
+        
+.container-top-menu .part-left .login-icone{
+    padding-left: 9px;
+    vertical-align:-3px;
+}
+.container-top-menu .part-right{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.container-top-menu .part-right .digi-logo{
+    object-fit: contain;
+    margin: 0px 10px;
+}
+.container-top-menu .part-right .input-menu-box {
+    width: 300px;
+    background-color: #d1d8e0;
+    text-align: right;
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #4b6584;
+}
+.container-top-menu .part-right .input-menu-box .input-menu{
+    border: none;
+    outline: none;
+    background-color: #d1d8e0;
+}
+.container-top-menu .part-right .input-menu-box .input-menu::placeholder{
+    text-align: right;
+    color: #4b6584;
+    padding-right: 10px;
+}
+.container-top-menu .part-right .input-menu-box .search-icone{
+ vertical-align: -7px;
+}
+.menu-tabs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4b6584;
+    box-shadow: -11px 12px 13px 0px #f2f3f5;
+    padding: 20px;
+}
+.menu-tabs .part-left-tabs{
+    display: flex;
+    justify-content: center;
+}
+.menu-tabs .part-left-tabs .city-select-text{
+    font-size: 14px;
+    padding: 10px 5px 0px 5px;
+}
+
+.d-flex{
+    display: flex;
+}
+.menu-tabs .tab{
+    color: #7f8fa6;
+    padding-right: 15px;
+    font-size: 17
+    px;
+}
+.border-left{
+    padding: 0px 10px;
+}
+.menu-tabs .part-right-tabs a:first-child  , .menu-tabs .part-right-tabs a:first-child+a{
+   padding-top: 10px;
+}
+.menu-tabs .part-right-tabs {
+align-items: center;
+} 
+.menu-tabs .part-right-tabs .humberger-menu #humberger-title{
+    padding: 0px 5px;
+    color: black;
+}
+.menu-tabs .tab{
+    transition: .5s;
+    padding-bottom: 5px;
+}
+.menu-tabs .tab:hover{
+    border-bottom: 2px solid #eb2f06;
+    
+}
+.menu-tabs .part-right-tabs .humberger-menu span{
+    color: black;
+}
+.container-highlights{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+   
+}
+.container-highlights img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid red;
+    cursor: pointer;
+}
+.container-highlights .highligh-text{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
